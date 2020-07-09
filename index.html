@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Video Game</title>
+</head>
+    <body>
+        <header>
+            <a href="./"><h1>Video Game</h1></a>
+        </header>
+            <div class="flex-container">
+
+                <!--King in Yellow-->
+                <div class="Character_1">
+                    <img src="img/Character_1.png">
+                    <div>
+                    <button type="Attack!" onclick="villian.attack(hero)"><img src="img/attack.png"><br>Attack!</button>
+                        <div id="info-player2"></div>
+                    </div>
+                </div>
+                <!---->
+
+                <!--Hero-->
+                <div class="Character_2">
+                    <img src="img/Character_2.png">
+                    <div>
+                        <button type="Attack!" onclick="hero.attack(villian)"><img src="img/attack.png"><br>Attack!</button>
+                        <div id="info-player1"></div>
+                    </div>
+                </div>
+                <!---->
+            </div>
+
+            <div id="console" class="console">  
+
+            </div>
+
+        <script src="script.js"></script>  
+    </body>
+</html>

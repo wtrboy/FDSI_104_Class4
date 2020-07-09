@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Dumbledor';
+    src: url('fonts/dum1.ttf');
+}
+
+body{
+    font-family: 'Dumbledor';
+    font-size: 25pt;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+header{
+    background-image: url(img/menu-line.png);
+    background-repeat: no-repeat;
+    font-size: 20pt;
+    width: 40rem;
+    height: 6rem;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display:flex;
+    margin: 5rem;
+}
+
+.Character_1{
+    flex:1
+}
+
+.Character_2{
+    flex:1
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color:white;
+}
+
+button{
+    background-color: red;
+    font-weight: bold;
+}
